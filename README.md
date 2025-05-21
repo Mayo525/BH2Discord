@@ -68,7 +68,7 @@ If the program fails to run and shows errors about missing DLL files, here’s h
 - **"Cannot run the code due to `MSVCP140D.dll` missing"**  
 - **"Cannot run the code due to `ucrtbased.dll` missing"**
 
-**Solutions:**
+## **Solutions:**
 
 - Install or repair the **Visual C++ Redistributables** and **.NET Framework** listed above.
 - If the issue persists:
