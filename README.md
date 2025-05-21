@@ -1,4 +1,3 @@
-
 # BH2Discord
 
 BH2Discord is a lightweight Discord Rich Presence integration for Beat Hazard 2.  
@@ -11,24 +10,31 @@ This project was officially approved by the creator of Beat Hazard 2, Cold Beam 
 ---
 
 ## Installation
-- **Enable Discord Integration in Beat Hazard 2**  
-- Before launching BH2Discord, you **must** enable Discord Rich Presence in the game's launch options:
+
+**Enable Discord Integration in Beat Hazard 2**
+
+Before launching BH2Discord, you **must** enable Discord Rich Presence in the game’s launch options:
+
 - Open **Steam**
 - Right-click on **Beat Hazard 2** → **Properties**
 - Under **Launch Options**, add:
- ```
- -discord
- ```
+```
+-discord
+```
+
 > This is required. BH2Discord will not function unless `-discord` is enabled in the game’s launch options.
 
-**Download & Extract**
-- Go to the [Releases](https://github.com/Mayo525/BH2Discord/releases) page
-- Download the latest `BH2Discord.zip`
+**Download and Extract**
+
+- Go to the [Releases](https://github.com/Mayo525/BH2Discord/releases) page  
+- Download the latest `BH2Discord.zip`  
 - Extract the zip file to any folder
 
-- **Run the Programs**
-- Start **Beat Hazard 2** first
+**Run the Programs**
+
+- Start **Beat Hazard 2** first  
 - Then run `BH2Discord.exe` from the folder you extracted it to  
+
 > If you run BH2Discord before the game, it may crash.
 
 ---
@@ -56,7 +62,7 @@ Make sure the following components are installed before running BH2Discord:
 
 If the program fails to run and shows errors about missing DLL files, here’s how to fix them:
 
-### Common Errors & Fixes:
+### Common Errors & Fixes
 
 - **"Cannot run the code due to `VCRUNTIME140_1D.dll` missing"**  
 - **"Cannot run the code due to `MSVCP140D.dll` missing"**  
@@ -66,10 +72,10 @@ If the program fails to run and shows errors about missing DLL files, here’s h
 
 - Install or repair the **Visual C++ Redistributables** and **.NET Framework** listed above.
 - If the issue persists:
-- Manually download each missing `.dll` file shown in the error message.
-- Copy them to:  
-- `C:\Windows\System32` (for 64-bit systems)  
-- `C:\Windows\SysWOW64` (if on a 32-bit system)
+  - Manually download each missing `.dll` file shown in the error message.
+  - Copy them to:  
+    - `C:\Windows\System32` (for 64-bit systems)  
+    - `C:\Windows\SysWOW64` (for 32-bit systems)
 
 > This is a fallback method only. Always try installing the official runtime packages first.
 
