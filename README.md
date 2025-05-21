@@ -1,4 +1,4 @@
-![Preview](Preview.png)
+![Preview](Image.png)
 
 # BH2Discord
 
