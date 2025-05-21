@@ -1,3 +1,5 @@
+![Preview](Preview.png)
+
 # BH2Discord
 
 BH2Discord is a lightweight Discord Rich Presence integration for Beat Hazard 2.  
